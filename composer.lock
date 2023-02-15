@@ -64,16 +64,16 @@
         },
         {
             "name": "chartello/chartello",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chartello/chartello.git",
-                "reference": "4245bf5fca6cfafe5f435562d7c5e72854ae8d62"
+                "reference": "b2e3a1b81562166c1c063d3d6557487424e3b74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chartello/chartello/zipball/4245bf5fca6cfafe5f435562d7c5e72854ae8d62",
-                "reference": "4245bf5fca6cfafe5f435562d7c5e72854ae8d62",
+                "url": "https://api.github.com/repos/chartello/chartello/zipball/b2e3a1b81562166c1c063d3d6557487424e3b74b",
+                "reference": "b2e3a1b81562166c1c063d3d6557487424e3b74b",
                 "shasum": ""
             },
             "require": {
@@ -116,9 +116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/chartello/chartello/issues",
-                "source": "https://github.com/chartello/chartello/tree/v0.1.1"
+                "source": "https://github.com/chartello/chartello/tree/v0.1.2"
             },
-            "time": "2023-02-11T20:35:14+00:00"
+            "time": "2023-02-12T13:07:39+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
