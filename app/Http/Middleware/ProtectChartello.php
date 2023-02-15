@@ -30,12 +30,6 @@ class ProtectChartello
      */
     protected function authorize($request)
     {
-        if (App::environment('local')) {
-            return true;
-        }
-
-        return $request->user() && in_array($request->user()->email, [
-            //
-        ]);
+        return true;
     }
 }
