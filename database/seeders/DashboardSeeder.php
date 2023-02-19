@@ -18,6 +18,18 @@ class DashboardSeeder extends Seeder
         $subscriptions = Dashboard::create(['name' => 'Sales']);
 
         $subscriptions->panels()->create([
+            'name' => 'Recent Users',
+            'type' => 'table',
+            'settings' => [
+                'query' => 'SELECT id, name, email, created_at
+FROM users
+WHERE created_at BETWEEN @start AND @end
+ORDER BY created_at DESC
+LIMIT 5'
+            ]
+        ]);
+
+        $subscriptions->panels()->create([
             'name' => 'Signups',
             'settings' => [
                 'query' => 'SELECT COUNT(*) AS y,
